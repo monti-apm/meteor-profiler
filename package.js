@@ -1,6 +1,6 @@
 Package.describe({
   "summary": "CPU Profiler for Meteor (used with Monti APM)",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "git": "https://github.com/monti-apm/meteor-profiler.git",
   "name": "montiapm:profiler"
 });
