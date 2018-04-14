@@ -24,7 +24,7 @@ function configurePackage(api) {
   api.use('random');
   api.use('montiapm:agent@2.31.0');
   api.imply('montiapm:agent@2.31.0');
-  api.use('meteorhacks:kadira-binary-deps@1.5.0');
+  api.use('montiapm:agent-binary-deps@1.6.0');
 
   api.add_files('lib/server.js', 'server');
   api.add_files('lib/client.js', 'client');
