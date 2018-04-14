@@ -1,11 +1,13 @@
-# CPU Profiler for Kadira
+# CPU Profiler for Monti APM
+
+This package is a fork of [kadira-profiler](https://github.com/meteorhacks/kadira-profiler)
 
 #### Take CPU profiles of your Meteor app and analyze them.
 
 First, install this package into your Meteor app.
 
 ~~~shell
-meteor add meteorhacks:kadira-profiler
+meteor add montiapm:profiler
 ~~~
 
 Then run your app with the following environment variable.

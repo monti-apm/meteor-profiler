@@ -1,8 +1,8 @@
 Package.describe({
-  "summary": "CPU Profiler for Meteor (used with Kadira)",
+  "summary": "CPU Profiler for Meteor (used with Monti APM)",
   "version": "1.3.0",
-  "git": "https://github.com/meteorhacks/kadira-profiler.git",
-  "name": "meteorhacks:kadira-profiler"
+  "git": "https://github.com/monti-apm/meteor-profiler.git",
+  "name": "montiapm:profiler"
 });
 
 Package.onUse(function(api) {
@@ -22,8 +22,8 @@ function configurePackage(api) {
   api.use('http');
   api.use('check');
   api.use('random');
-  api.use('meteorhacks:kadira@2.22.0');
-  api.imply('meteorhacks:kadira@2.22.0');
+  api.use('montiapm:agent@2.31.0');
+  api.imply('montiapm:agent@2.31.0');
   api.use('meteorhacks:kadira-binary-deps@1.5.0');
 
   api.add_files('lib/server.js', 'server');
