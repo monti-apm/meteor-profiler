@@ -22,7 +22,7 @@ Package.onTest(function(api) {
 
 function configurePackage(api) {
   api.versionsFrom('METEOR@1.4');
-  api.use('http@1.0.0||2.0.0-beta||2.0.0');
+  api.use('http@1.0.0||2.0.0-beta');
   api.use('check');
   api.use('random');
   api.export('MontiProfiler');
