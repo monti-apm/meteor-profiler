@@ -12,9 +12,12 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   configurePackage(api);
   api.use([
-    'tinytest',
+    'tinytest'
   ], ['client', 'server']);
 
+  api.addFiles('test/helpers.js', 'server');
+  api.addFiles('test/client.js', 'client');
+  api.addFiles('test/server.js', 'server');
 });
 
 function configurePackage(api) {
