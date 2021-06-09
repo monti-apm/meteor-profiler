@@ -1,6 +1,5 @@
-# CPU Profiler for Monti APM
+# CPU Profiler for Monti APM ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/monti-apm/meteor-profiler/Test?style=flat-square)
 
-This package is a fork of [kadira-profiler](https://github.com/meteorhacks/kadira-profiler)
 
 Add this package by running
 ```shell
@@ -8,6 +7,8 @@ meteor add montiapm:profiler
 ```
 
 [![Kadira CPU Analyzer](https://cldup.com/9e2Zti7psL.png)](https://kadira.io/platform/kadira-debug/cpu-profiling)
+
+This package is a fork of [kadira-profiler](https://github.com/meteorhacks/kadira-profiler)
 
 ## Remote CPU
 
