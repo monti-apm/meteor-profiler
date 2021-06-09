@@ -1,5 +1,12 @@
 # Change Log
 
+### v1.6.0
+
+* Add support for continuous profiling
+* Fix compatibility with Meteor 2.3
+* Remove dependency on HTTP package
+* Fix error when getting cpu usage from montiapm:agent
+
 ### v1.5.0
 
 * Updated for Meteor 1.9 by upgrading `montiapm:agent-binary-deps` to 2.0.0
