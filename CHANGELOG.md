@@ -1,5 +1,9 @@
 # Change Log
 
+### v1.6.1
+
+* Update `montiapm:agent-binary-deps` to fix memory leak
+
 ### v1.6.0
 
 * Add support for continuous profiling
