@@ -1,10 +1,18 @@
 # Change Log
 
+### v1.6.2
+August 30, 2021
+
+* Improve error message when taking remote profile and the agent is not connected
+* Update `montiapm:agent` to 2.44.2 to fix uploading large remote profiles
+
 ### v1.6.1
+July 20, 2021
 
 * Update `montiapm:agent-binary-deps` to fix memory leak
 
 ### v1.6.0
+June 9, 2021
 
 * Add support for continuous profiling
 * Fix compatibility with Meteor 2.3
@@ -12,6 +20,7 @@
 * Fix error when getting cpu usage from montiapm:agent
 
 ### v1.5.0
+January 16, 2020
 
 * Updated for Meteor 1.9 by upgrading `montiapm:agent-binary-deps` to 2.0.0
 * Fix profiling locally on Windows
