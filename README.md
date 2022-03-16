@@ -6,9 +6,10 @@ Add this package by running
 meteor add montiapm:profiler
 ```
 
-[![Kadira CPU Analyzer](./monti-cpu-analyzer.png)](https://kadira.io/platform/kadira-debug/cpu-profiling)
+[![Monti CPU Analyzer](./monti-cpu-analyzer.png)](https://kadira.io/platform/kadira-debug/cpu-profiling)
 
-This package is a fork of [kadira-profiler](https://github.com/meteorhacks/kadira-profiler)
+This package is a fork of [kadira-profiler](https://github.com/meteorhacks/kadira-profiler).
+Compatible with Meteor 1.4 - 2.7 and newer.
 
 ## Remote CPU
 
@@ -25,7 +26,7 @@ Your profile will now appear on Monti APM where you can analyze it.
 ```shell
 MONTI_PROFILE_LOCALLY=1
 ```
->We've also kept `KADIRA_PROFILE_LOCALLY` for backwards compatibility
+>We've also kept `MONTI_PROFILE_LOCALLY` for backwards compatibility
 
 2. Open your app in the browser and open the browser console
 3. In the console run `Monti.profileCpu(10)`
@@ -35,6 +36,6 @@ MONTI_PROFILE_LOCALLY=1
 
 You can now analyze your cpu profile using Chrome's dev tools.
 
-<!-- Then visit [Kadira Debug](http://debug.kadiraio.com/debug?tab=cpu-profiler) and load the saved CPU profile.  -->
+Then visit [Monti Debug](https://debug.montiapm.com/debug?tab=cpu-profiler) and load the saved CPU profile. 
 
-For more infomation [visit here](https://kadira.io/platform/kadira-debug/cpu-profiling).
+For more information [visit here](https://docs.montiapm.com/record-cpu-profile).
