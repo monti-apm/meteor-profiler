@@ -1,5 +1,11 @@
 # Change Log
 
+### v1.6.3
+March 16, 2022
+
+* Support `MONTI_PROFILE_LOCALLY` env var in addition to `KADIRA_PROFILE_LOCALLY`
+* Fixed broken links and updated screenshot in readme
+
 ### v1.6.2
 August 30, 2021
 
