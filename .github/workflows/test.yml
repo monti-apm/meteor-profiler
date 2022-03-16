@@ -38,4 +38,4 @@ jobs:
 
       - name: Run Tests
         run: |
-          mtest --package ./ --once ${{ matrix.meteorRelease }}
+          NODE_TLS_REJECT_UNAUTHORIZED=0 mtest --package ./ --once ${{ matrix.meteorRelease }}
