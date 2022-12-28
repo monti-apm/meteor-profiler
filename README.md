@@ -26,7 +26,7 @@ Your profile will now appear on Monti APM where you can analyze it.
 ```shell
 MONTI_PROFILE_LOCALLY=1
 ```
->We've also kept `MONTI_PROFILE_LOCALLY` for backwards compatibility
+>We've also kept `KADIRA_PROFILE_LOCALLY` for backwards compatibility
 
 2. Open your app in the browser and open the browser console
 3. In the console run `Monti.profileCpu(10)`
