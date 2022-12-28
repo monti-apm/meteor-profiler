@@ -6,7 +6,7 @@ Add this package by running
 meteor add montiapm:profiler
 ```
 
-[![Monti CPU Analyzer](./monti-cpu-analyzer.png)](https://kadira.io/platform/kadira-debug/cpu-profiling)
+[![Monti CPU Analyzer](https://raw.githubusercontent.com/monti-apm/meteor-profiler/master/monti-cpu-analyzer.png)](https://docs.montiapm.com/record-cpu-profile)
 
 This package is a fork of [kadira-profiler](https://github.com/meteorhacks/kadira-profiler).
 Compatible with Meteor 1.4 - 2.7 and newer.
