@@ -1,4 +1,4 @@
-# CPU Profiler for Monti APM ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/monti-apm/meteor-profiler/Test?style=flat-square)
+# CPU Profiler for Monti APM ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/monti-apm/meteor-profiler/test.yml?branch=master&style=flat-square)
 
 
 Add this package by running
