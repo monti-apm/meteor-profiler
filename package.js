@@ -21,12 +21,12 @@ Package.onTest(function(api) {
 });
 
 function configurePackage(api) {
-  api.versionsFrom('METEOR@1.4');
+  api.versionsFrom('METEOR@3.0-alpha.17');
   api.use('check');
   api.use('random');
   api.export('MontiProfiler');
-  api.use('montiapm:agent@2.44.2');
-  api.imply('montiapm:agent@2.44.2');
+  api.use('montiapm:agent');
+  api.imply('montiapm:agent');
   api.use('montiapm:agent-binary-deps@2.1.1');
 
   api.addFiles('lib/server.js', 'server');
