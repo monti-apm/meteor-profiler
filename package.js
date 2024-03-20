@@ -24,6 +24,7 @@ function configurePackage(api) {
   api.versionsFrom('METEOR@1.4');
   api.use('check');
   api.use('random');
+  api.use('ecmascript');
   api.export('MontiProfiler');
   api.use('montiapm:agent@2.44.2');
   api.imply('montiapm:agent@2.44.2');
