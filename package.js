@@ -26,8 +26,8 @@ function configurePackage(api) {
   api.use('random');
   api.use('ecmascript');
   api.export('MontiProfiler');
-  api.use('montiapm:agent@2.44.2');
-  api.imply('montiapm:agent@2.44.2');
+  api.use('montiapm:agent@2.44.2||3.0.0-beta.4');
+  api.imply('montiapm:agent@2.44.2||3.0.0-beta.4');
   api.use('montiapm:agent-binary-deps@3.0.0');
 
   api.addFiles('lib/server.js', 'server');
