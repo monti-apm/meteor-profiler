@@ -12,7 +12,7 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   configurePackage(api);
   api.use([
-    'tinytest'
+    'tinytest@1.1.0||2.0.0-rc300.0'
   ], ['client', 'server']);
 
   api.addFiles('test/helpers.js', 'server');
