@@ -1,10 +1,18 @@
 # Change Log
 
+### Next
+
+* Drop support for Meteor 1.4 - 1.8.2
+* Add support for Meteor 3
+* Add remote heap snapshots
+* 
+
 ### v1.6.3
 March 16, 2022
 
 * Support `MONTI_PROFILE_LOCALLY` env var in addition to `KADIRA_PROFILE_LOCALLY`
 * Fixed broken links and updated screenshot in readme
+* Fix race condition where job could start multiple times (requires the agent to be connected to an endpoint that returns the necessary information)
 
 ### v1.6.2
 August 30, 2021
