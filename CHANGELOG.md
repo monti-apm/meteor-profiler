@@ -5,7 +5,6 @@
 * Drop support for Meteor 1.4 - 1.8.2
 * Add support for Meteor 3
 * Add remote heap snapshots
-* 
 
 ### v1.6.3
 March 16, 2022
