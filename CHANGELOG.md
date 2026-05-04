@@ -2,7 +2,7 @@
 
 ### Next
 
-* Drop support for Meteor 1.4 - 1.8.2
+* Drop support for Meteor 1.4 - 2.2
 * Add support for Meteor 3
 * Add remote heap snapshots
 

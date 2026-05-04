@@ -7,13 +7,6 @@ jobs:
     strategy:
       matrix:
         meteorRelease:
-          - '--release 1.9'
-          - '--release 1.9.1'
-          - '--release 1.10.2'
-          - '--release 1.11'
-          - '--release 1.12.1'
-          - '--release 2.1.1'
-          - '--release 2.2'
           - '--release 2.3.2'
           - '--release 2.4.1'
           - '--release 2.5.6'
