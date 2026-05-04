@@ -5,6 +5,11 @@ Package.describe({
   "name": "montiapm:profiler"
 });
 
+Npm.depends({
+  axios: '1.13.6',
+  '@zodern/v8-profiler-next': '1.10.1'
+});
+
 Package.onUse(function(api) {
   configurePackage(api);
 });
@@ -28,7 +33,6 @@ function configurePackage(api) {
   api.export('MontiProfiler');
   api.use('montiapm:agent@2.44.2||3.0.0-beta.4');
   api.imply('montiapm:agent@2.44.2||3.0.0-beta.4');
-  api.use('montiapm:agent-binary-deps@3.0.0');
 
   api.addFiles('lib/server.js', 'server');
   api.addFiles('lib/client.js', 'client');
