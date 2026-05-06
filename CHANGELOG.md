@@ -1,6 +1,7 @@
 # Change Log
 
-### Next
+### v1.7.0
+May 6, 2026
 
 * Drop support for Meteor 1.4 - 2.2
 * Add support for Meteor 3
