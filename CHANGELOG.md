@@ -1,5 +1,10 @@
 # Change Log
 
+### v1.7.1
+May 13, 2026
+
+* Fix uploading heap snapshots
+
 ### v1.7.0
 May 6, 2026
 
