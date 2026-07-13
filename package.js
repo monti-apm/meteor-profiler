@@ -7,7 +7,7 @@ Package.describe({
 
 Npm.depends({
   axios: '1.13.6',
-  '@zodern/v8-profiler-next': '1.10.1'
+  '@zodern/v8-profiler-next': '1.11.0'
 });
 
 Package.onUse(function(api) {
