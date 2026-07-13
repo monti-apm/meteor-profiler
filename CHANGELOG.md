@@ -1,5 +1,10 @@
 # Change Log
 
+### v1.7.2
+July 13, 2026
+
+* Add support for Node 24 and 26
+
 ### v1.7.1
 May 13, 2026
 
