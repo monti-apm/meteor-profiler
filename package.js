@@ -1,3 +1,7 @@
+// TalkingPoints fork: https://github.com/gabdsg/meteor-profiler/tree/tapo, a copy of it lives in
+// the app's packages/montiapm-profiler. Only change: npm deps bumped for security advisories.
+// Upstream: https://github.com/monti-apm/meteor-profiler
+
 Package.describe({
   "summary": "CPU Profiler for Meteor (used with Monti APM)",
   "version": "1.7.2",
@@ -6,7 +10,7 @@ Package.describe({
 });
 
 Npm.depends({
-  axios: '1.13.6',
+  axios: '1.21.1',
   '@zodern/v8-profiler-next': '1.11.0'
 });
 
